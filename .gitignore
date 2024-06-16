@@ -1,0 +1,9 @@
+# Node Dependencies
+node_modules
+
+# Package lock
+package-lock.json
+
+# Compiled js files and sourcemaps
+dist/*.js
+dist/*.js.map
