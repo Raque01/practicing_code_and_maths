@@ -4,7 +4,17 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-problem-1": "npx tsc src/Problem_1/problem_1.ts --outFile  dist/src/Problem_1/problem_1.js && node dist/src/Problem_1/problem_1.js",
+    "start-problem-2": "npx tsc src/Problem_2/problem_2.ts --outFile  dist/src/Problem_2/problem_2.js && node dist/src/Problem_2/problem_2.js",
+    "start-problem-3": "npx tsc src/Problem_3/problem_3.ts --outFile  dist/src/Problem_3/problem_3.js && node dist/src/Problem_3/problem_3.js",
+    "start-problem-4": "npx tsc src/Problem_4/problem_4.ts --outFile  dist/src/Problem_4/problem_4.js && node dist/src/Problem_4/problem_4.js",
+    "start-problem-5": "npx tsc src/Problem_5/problem_5.ts --outFile  dist/src/Problem_5/problem_5.js && node dist/src/Problem_5/problem_5.js",
+    "start-problem-6": "npx tsc src/Problem_6/problem_6.ts --outFile  dist/src/Problem_6/problem_6.js && node dist/src/Problem_6/problem_6.js",
+    "start-problem-7": "npx tsc src/Problem_7/problem_7.ts --outFile  dist/src/Problem_7/problem_7.js && node dist/src/Problem_7/problem_7.js",
+    "start-problem-8": "npx tsc src/Problem_8/problem_8.ts --outFile  dist/src/Problem_8/problem_8.js && node dist/src/Problem_8/problem_8.js",
+    "start-problem-9": "npx tsc src/Problem_9/problem_9.ts --outFile  dist/src/Problem_9/problem_9.js && node dist/src/Problem_9/problem_9.js",
+    "start-problem-10": "npx tsc src/Problem_10/problem_10.ts --outFile  dist/src/Problem_10/problem_10.js && node dist/src/Problem_10/problem_10.js"
   },
   "keywords": [],
   "author": "",

@@ -5,5 +5,5 @@ node_modules
 package-lock.json
 
 # Compiled js files and sourcemaps
-dist/*.js
-dist/*.js.map
+dist/src/*/*.js
+dist/src/*/*.js.map
